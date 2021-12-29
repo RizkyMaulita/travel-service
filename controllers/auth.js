@@ -89,7 +89,7 @@ class AuthController {
       res.status(201).json({
         message: `Successfully register new account !`,
         data: {
-          userId: newUser.userId,
+          userId: newUser.id,
           userName,
           email
         }
